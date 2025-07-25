@@ -177,35 +177,35 @@ const Navbar: React.FC = () => {
           <ul className="navbar-nav mx-auto">
             <li className="nav-item m-3 align-items-center">
               <button
-                className="nav-link btn btn-link fs-5 align-items-center"
+                className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("hero")}
               >
-                <GoHome size={27} />
+                <GoHome size={25} />
                 <span> Accueil</span>
               </button>
             </li>
             <li className="nav-item m-3">
               <button
-                className="nav-link btn btn-link fs-5"
+                className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("about")}
               >
-                <AiOutlineInfoCircle size={27} /> À propos
+                <AiOutlineInfoCircle size={25} /> À propos
               </button>
             </li>
             <li className="nav-item m-3">
               <button
-                className="nav-link btn btn-link fs-5"
+                className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("menu")}
               >
-                <LuUtensils size={27} /> Menu
+                <LuUtensils size={25} /> Menu
               </button>
             </li>
             <li className="nav-item m-3">
               <button
-                className="nav-link btn btn-link fs-5"
+                className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("events")}
               >
-                <MdEvent size={27} /> Événements
+                <MdEvent size={25} /> Événements
               </button>
             </li>
             <li className="nav-item m-3">
@@ -213,7 +213,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-4 align-items-center"
                 onClick={() => scrollToSection("reservation")}
               >
-                <IoCallOutline size={27} /> <span>Contact</span>
+                <IoCallOutline size={25} /> <span>Contact</span>
               </button>
             </li>
           </ul>
