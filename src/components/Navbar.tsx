@@ -180,7 +180,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("hero")}
               >
-                <GoHome size={25} />
+                <GoHome size={23} />
                 <span> Accueil</span>
               </button>
             </li>
@@ -189,7 +189,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("about")}
               >
-                <AiOutlineInfoCircle size={25} /> À propos
+                <AiOutlineInfoCircle size={23} /> À propos
               </button>
             </li>
             <li className="nav-item m-3">
@@ -197,7 +197,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("menu")}
               >
-                <LuUtensils size={25} /> Menu
+                <LuUtensils size={23} /> Menu
               </button>
             </li>
             <li className="nav-item m-3">
@@ -205,7 +205,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-5 d-flex align-items-center gap-2"
                 onClick={() => scrollToSection("events")}
               >
-                <MdEvent size={25} /> Événements
+                <MdEvent size={23} /> Événements
               </button>
             </li>
             <li className="nav-item m-3">
@@ -213,7 +213,7 @@ const Navbar: React.FC = () => {
                 className="nav-link btn btn-link fs-4 align-items-center"
                 onClick={() => scrollToSection("reservation")}
               >
-                <IoCallOutline size={25} /> <span>Contact</span>
+                <IoCallOutline size={23} /> <span>Contact</span>
               </button>
             </li>
           </ul>
